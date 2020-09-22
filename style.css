@@ -2,11 +2,7 @@
 
 /*background img for page*/
 body {
-     background-image: url('Images/blue_water.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size:100%;
-     background-position: center;
+    background-color: rgb(195, 241, 241);
  }
 
 /*Networking card*/
