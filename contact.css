@@ -1,0 +1,126 @@
+/*header*/
+.subnav-hero-section {
+    text-align: center;
+    background: url(Images/hero-header.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: visible;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 400px;
+  }
+  
+  .subnav-hero-section .subnav-hero-headline {
+    color:black;
+  }
+  
+  .subnav-hero-subnav {
+    float: none;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .subnav-hero-subnav li {
+    float: none;
+    display: inline-block;
+  }
+  
+  .subnav-hero-subnav li a {
+    padding: 0.9rem 1rem;
+    font-size: 0.75rem;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .subnav-hero-subnav li a.is-active {
+    background:white;
+  }
+  
+  .subnav-hero-subnav li a:hover {
+    background:grey;
+  }
+  
+  /*contact hero*/
+.marketing-site-hero {
+    background: url(Images/contact-hero.jpg);
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    height: 65vh;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero {
+      background-position: center center;
+    }
+  }
+  
+  .marketing-site-hero-content {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(177, 177, 177, 0.7);
+    border: black dotted;
+    border-radius: 20px;
+    
+  }
+  
+  .marketing-site-hero-content h1 {
+    font-size: 32px;
+    border-radius: 20px;
+    
+  }
+  
+  .marketing-site-hero-content .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: black;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-content {
+      padding-left: 50%;
+
+    }
+  }
+
+  /*background img for page*/
+  body {
+      background-color: rgb(177, 177, 177);;
+   }
+  
+  /*Networking card*/
+  .card {
+      margin-top: 40px;
+     }
+  
+   h2 {
+       font-family: cursive; 
+   }
+    
+  
+  

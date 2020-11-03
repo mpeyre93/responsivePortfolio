@@ -3,73 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
 
      <!-- CSS only -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body>
-    <!---nav bar start-->
-    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:#7f96a5;">
-        <span class="navbar-brand mb-1 h1"> ME</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
+     <!--hero header with nav-->
+     <header class="subnav-hero-section">
+        <h1 class="subnav-hero-headline">Develop & Design <small> by Marlee Renae Eyre</small></h1>
+        <ul class="subnav-hero-subnav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html" class="is-active">Portfolio</a></li>
+          <li><a target="_blank" href="https://github.com/mpeyre93">GitHub</a></li>
         </ul>
-        </div>
-    </nav>
+      </header>
     <!---nav bar end-->
 
     <!--portfolio content-->
     <div class="container">
-        <div class="row">
-            <h2>Portfolio</h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
+        <div class="work-feature-block row">
+            <div class="columns medium-7">
+              <img class="work-feature-block-image" src="Images/Tech.ITNewsScreenshot.jpg" width="350" height="300" alt="TechIT screenShot"/>
             </div>
-            <br>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <br>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <br>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <br>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="col-sm-3">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200">
+            <div class="columns medium-5">
+              <h2 class="work-feature-block-header">Project Description</h2>
+              <p>This application was created to give Software Developers the ability to read the latest technology industry news so they can keep up-to-date with changes in the industry. This application also gives Software Developers the ability to lookup available jobs in the field so they can advance my professional career. The application also features a section where inspirational quotes from technology leaders are displated to keep Developers motivated.</p>
+              <h2>Project Details</h2>
+              <ul>
+                <li class="list-group-item" ><a href="https://studygroup2021.github.io/tech.it/">Deployed Application</a></li>
+                <li class="list-group-item"><a href="https://github.com/StudyGroup2021/tech.it">GitHub page</a></li>
+                <li class="list-group-item"><img src="Images/TechITLangs.png" width="400" height="200" alt="Language display"/></li>
+              </ul>
             </div>
         </div>
+        
+        <div class="work-feature-block row">
+            <div class="columns medium-7">
+              <img class="work-feature-block-image" src="Images/passwordGenscreenshot.jpg" width="350" height="300"/>
+            </div>
+            <div class="columns medium-5">
+              <h2 class="work-feature-block-header">Project Description</h2>
+              <p>This application was created to generate a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It also features a clean and polished user interface and is responsive, ensuring that it adapts to multiple screen sizes.</p>
+              <h2>Project Details</h2>
+              <ul>
+                <li class="list-group-item"><a href="https://mpeyre93.github.io/passwordGenerator/">Deployed Application</a></li>
+                <li class="list-group-item"><a href="https://github.com/mpeyre93/passwordGenerator">GitHub page</a></li>
+                <li class="list-group-item"><img src="Images/passwordLangs.png" width="400" height="200" alt="Language display"/></li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="work-feature-block row">
+            <div class="columns medium-7">
+              <img class="work-feature-block-image" src="Images/wrkdayScreenshot.png" width="350" height="300"/>
+            </div>
+            <div class="columns medium-5">
+              <h2 class="work-feature-block-header">Project Description</h2>
+              <p>This is a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Moment.js library is in use to work with date and time.</p>
+              <h2>Project Details</h2>
+              <ul>
+                <li class="list-group-item"><a href="https://mpeyre93.github.io/workDayScheduler/">Deployed Application</a></li>
+                <li class="list-group-item"><a href="https://github.com/mpeyre93/workDayScheduler">GitHub page</a></li>
+                <li class="list-group-item"><img src="Images/schedulerLangs.png" width="350" height="200" alt="Language display"/></li>
+              </ul>
+            </div>
+        </div>
+          
+    </div>
 
 
 
