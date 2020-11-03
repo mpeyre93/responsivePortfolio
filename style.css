@@ -64,10 +64,12 @@ body {
 /*Networking card*/
 .card {
     margin-top: 40px;
+    width: 100% ;
    }
 
  h2 {
      font-family: cursive; 
  }
   
+
  
