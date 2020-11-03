@@ -14,9 +14,9 @@ As the screen is minimized into a smaller layout the content in responsive and r
 
 Link to application: https://mpeyre93.github.io/responsivePortfolio/ 
 
-![Portfolio Images](./Assets/homepagescreenshot.PNG)
-![Portfolio Images](./Assets/contactpagescreenshot.PNG)
-![Portfolio Images](./Assets/portfoliopagescreenshot.PNG)
+![Portfolio Images](/Assets/homepagescreenshot.PNG?raw=true)
+![Portfolio Images](/Assets/contactpagescreenshot.PNG?raw=true)
+![Portfolio Images](/Assets/portfoliopagescreenshot.PNG?raw=true)
 
 
 
