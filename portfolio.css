@@ -1,3 +1,4 @@
+/*header*/
 .subnav-hero-section {
   text-align: center;
   background: url(Images/hero-header.jpg);
@@ -81,6 +82,7 @@ body {
 /*Networking card*/
 .card {
     margin-top: 40px;
+    width: 100%;
    }
 
  h2 {
