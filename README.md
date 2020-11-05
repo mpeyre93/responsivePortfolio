@@ -16,7 +16,7 @@ Link to application: https://mpeyre93.github.io/responsivePortfolio/
 
 ![portfolioImages](/Images/homepagescreenshot.png?raw=true)
 ![portfolioImages](/Images/contactpagescreenshot.png?raw=true)
-![portfolioImages](/Images/portfoliopagescreenshot.png?raw=true)
+![portfolioImages](/Images/portfolioscreenshot.png?raw=true)
 
 
 
