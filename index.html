@@ -15,76 +15,128 @@
 <body>
     <!--hero header with nav-->
   <header class="subnav-hero-section">
-    <h1 class="subnav-hero-headline">Develop & Design <small> by Marlee Renae Eyre</small></h1>
-    <ul class="subnav-hero-subnav">
-      <li><a href="index.html" class="is-active">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-  </header>
-    
-
-    <!---About me-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="page-header">
-                    <h2>About Me:</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="Images/Picture.PNG" alt="Sailing" class="img-thumbnail">
-                    </div>
-                    <div class="col-md-9">
-                        <p> Not all paths lead us in a direct route to our ture calling. This year has been full of challenges for many but I believe it has also given people the ability to push themselves beyond their comfort zones. 
-                            I graduated with a Bachelor of Science Degree in Nuclear Medicine Technology, a Minor in Human Resource Management and a Certificate of Leadership and Supervision, from Ferris State University, where I began to carve my path as a healthcare worker. 
-                            After 5 years of working at hospitals I accepted a job offer at a Nuclear Cardiology software company which sparked a strong interest in healthcare applications. I was lucky enough to come across the MSU Coding Bootcamp for an opportunity to learn, challenge and advance my professional coding and development skills. 
-                            While I believe a career makes up a good portion of your identity, what you do outside of work really tells a story. If I'm not working you'll find me on a boat or running around a lake. As a born and raised Michigander, I try my best to enjoy all four seasons! I love mountain biking, snowboaring, and traveling. I'm excited to see where my coding and development skills take me and can't wait to create something great!</p>
-                                
-                    </div>
-                </div>
-            </div>
-            
-            <!---networking card-->
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                  <div class="card-header">
-                  Networking
-                  </div>
-                  <!--unordered list-->
-                  <ul class="list-group list-group-flush">
-                      <li class="list-group-item"> <img src="Images/github (1).svg" alt="github icon"> Github:<a target="_blank" href="https://github.com/mpeyre93"> mpeyre93</a></li>
-                      <li class="list-group-item"> <img src="Images/linkedin (1).svg" alt="linkedin icon"> LinkedIn:<a target="_blank" href="https://www.linkedin.com/in/marlee-eyre-cnmt-b4919686/"> Marlee Eyre, CNMT</a></li>
-                      <li class="list-group-item"> <img src="Images/resume.png" alt="resume icon"><a target="_blank" href="Assets/Resume.ME.pdf">Resume</a></li>
-                  </ul>
-              </div>
-            </div>
-        </div>
+    <div id="logoHeader"> 
+      <img src="Images/logo.png" style="width: 250px; height: 250px;" alt="logo">
     </div>
-    
+    <div>
+      <h1 class="subnav-hero-headline">Develop & Design <small class="name">by Marlee Renae Eyre</small></h1>
+      <ul class="subnav-hero-subnav">
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div class="container">
+    <img src="Images/sail.JPG" class="center" id="sailingImg" alt="saling">
+  </div>
+  
+  <br>
+  <br>
 
+  <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="Images/education.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>"I shall never cease growing. I am ever searching for truth..." W.N. Ferris, Founder</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="Images/degrees.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/experience.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
 
-    
-            <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
 
-        
-          <div class="row">
-            <div class="col-lg-12">
-               <!--The content in this div gets wrapped in a card -->
-              <div class="card">
-                <div class="card-body">
-                  <div class="text-center">
-                    <a target="_blank" href="https://www.linkedin.com/in/marlee-eyre-cnmt-b4919686/"> <img src="Images/linkedin (1).svg" alt="LinkedIn icon"> </a>
-                    <a target="_blank" href="https://github.com/mpeyre93"> <img src="Images/github (1).svg" alt="Github icon"> </a> 
-                    <a target="_blank" href="index.html"> <img src="Images/home (1).svg" alt="Home icon"> </a> 
-                  </div>
-                </div>
+  <br>
+    <!---About me testimonial-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="testimonial-block-vertical">
+            <div class="testimonial-block-vertical-quote">
+              <p>Not all paths lead us in a direct route to our true calling. These have been times full of challenge and adaptability for many, but I believe it has given people the ability to push themselves beyond their comfort zones. 
+                I graduated with a Bachelor of Science in Nuclear Medicine Technology, a Minor in Human Resource Management and a Certificate of Leadership and Supervision, from Ferris State University, where I began to carve my path as a healthcare worker. 
+                After 5 years of working at hospitals I accepted a job offer at a Nuclear Cardiology software company which sparked a strong interest in healthcare applications. I was lucky enough to come across the MSU Full-Stack Coding Bootcamp for an opportunity to learn, challenge and advance my professional skills. 
+                While I believe a career makes up a good portion of your identity, what you do outside of work really tells a story. If I'm not working you'll find me on a boat or running around a lake. As a born and raised Michigander, I try my best to enjoy all four seasons! I love mountain biking, snowboaring, and traveling. I'm excited to see where my coding and development skills take me and can't wait to create something great!</p>
+            </div>
+            <div class="testimonial-block-vertical-person">
+              <img class="testimonial-block-vertical-avatar" src="Images/sail2.JPG" alt="" />
+              <div>
+                <p class="testimonial-block-vertical-name">Marlee Eyre,</p>
+                <p class="testimonial-block-vertical-info">CNMT</p>
               </div>
             </div>
           </div>
-        
+        </div>
+
+        <!---networking card-->
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+              <div class="card-header">
+              Networking
+              </div>
+              <!--unordered list-->
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <img src="Images/github (1).svg" alt="github icon"> Github:<a target="_blank" href="https://github.com/mpeyre93"> mpeyre93</a></li>
+                  <li class="list-group-item"> <img src="Images/linkedin (1).svg" alt="linkedin icon"> LinkedIn:<a target="_blank" href="https://www.linkedin.com/in/marlee-eyre-cnmt-b4919686/"> Marlee Eyre, CNMT</a></li>
+                  <li class="list-group-item"> <a target="_blank" href="Assets/Resume.ME.pdf"><img src="Images/respic.jpg" style=" width: 250px; height: 150px" alt="resume image"></a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <br>
+  
+      <!--footer-->
+      <footer class="social-footer">
+        <div class="social-footer-left">
+          <img class="logo" src="Images/logo.png" style="width: 115px; height: 120px;">
+        </div>
+        <div>
+          <p>&copy2021 mpeyre Applications. All Rights Reserved.</p>
+        </div>
+        <div class="social-footer-icons">
+          <ul class="menu simple">
+            <a target="_blank" href="https://www.linkedin.com/in/marlee-eyre-cnmt-b4919686/"><img src="Images/linkedin (1).svg" alt="LinkedIn icon"></a>
+            <a target="_blank" href="https://github.com/mpeyre93"> <img src="Images/github (1).svg" alt="Github icon"> </a>
+            <a target="_blank" href="index.html"> <img src="Images/home (1).svg" alt="Home icon"> </a>
+          </ul>
+        </div>
+      </footer>
+          
+          
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
 </body>
 </html>

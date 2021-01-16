@@ -56,15 +56,23 @@
   background:grey;
 }
 
+/*header*/
+.subnav-hero-headline {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 55px;
+}
+.name {
+  font-family: 'Brush Script MT', cursive ;
+  font-size: 35px;
+}
 
 /*background img for page*/
 body {
-    background-color: rgb(177, 177, 177);;
+    background-color: rgb(27, 27, 27);
  }
 
 /*Networking card*/
 .card {
-    margin-top: 40px;
     width: 100% ;
    }
 
@@ -72,5 +80,126 @@ body {
      font-family: cursive; 
  }
   
+#logoHeader {
+  padding-right: 50px;
+}
+
+/*sailing image*/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+#sailingImg {
+  padding-top: 50px;
+  width: 550px;
+  height: 550px;
+}
+
+/*about me testimonial*/
+.testimonial-block-vertical-quote {
+  background: rgba(224, 236, 247, 0.863);
+  padding: 1rem;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  position: relative;
+}
+
+.testimonial-block-vertical-quote p {
+  margin-bottom: 0;
+}
+
+.testimonial-block-vertical-quote::after {
+  content: '';
+  bottom: -1.25rem;
+  left: 2.25rem;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 1.25rem 1.125rem 0 1.125rem;
+  border-color: rgba(224, 236, 247, 0.863) transparent transparent transparent;
+  position: absolute;
+}
+
+.testimonial-block-vertical-person {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1.65rem;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial-block-vertical-avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial-block-vertical-name {
+  text-transform: uppercase;
+  color:aliceblue;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 0.65rem;
+}
+
+.testimonial-block-vertical-info {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #f7f4f4;
+  margin-bottom: 0;
+  margin-left: 0.65rem;
+}
+
+
+/*about me paragraph*/
+#aboutMe {
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*footer*/
+.social-footer {
+  padding: 1rem;
+  border-top: white solid 5px;
+  background-color: aliceblue;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+@media print, screen and (min-width: 40em) {
+  .portfolio-resume-scrolling {
+    height: 400px;
+    overflow-y: auto;
+  }
+}
+
 
  
