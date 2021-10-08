@@ -251,6 +251,11 @@ h3 {
 .form-lable {
   color: #e6e6e6;
 }
+
+#contact {
+  margin-left: auto;
+}
+
 /*footer*/
 .social-footer {
   padding: 1rem;
