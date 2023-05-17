@@ -70,15 +70,6 @@
 body {
     background-color: rgb(27, 27, 27);
  }
-
-/*Networking card*/
-.card {
-    width: 100% ;
-   }
-
- h2 {
-     font-family: cursive; 
- }
   
 #logoHeader {
   padding-right: 50px;
@@ -95,13 +86,19 @@ body {
 
 #sailingImg {
   padding-top: 50px;
+  padding-right: 15px;
   width: 550px;
   height: 550px;
+  margin-left: auto;
+}
+
+#experienceStatement {
+  padding-top: 140px;
 }
 
 /*about me testimonial*/
 .testimonial-block-vertical-quote {
-  background: rgba(224, 236, 247, 0.863);
+  background: rgba(233, 239, 245, 0.863);
   padding: 1rem;
   border-radius: 0;
   margin-bottom: 1.875rem;
@@ -162,6 +159,16 @@ body {
   color: aliceblue;
   font-family: 'Courier New', Courier, monospace;
 
+}
+
+/*Networking card*/
+.card {
+  width: 100% ;
+  margin-left: auto;
+ }
+
+h2 {
+   font-family: cursive; 
 }
 
 /*footer*/
